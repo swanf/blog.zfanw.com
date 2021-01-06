@@ -129,7 +129,7 @@ $ npm install -D webpack
 
 我们前面说，webpack 是个打包工具，那么它就需要一个入口文件，一个输出文件。
 
-我们试试在命令行下将 `index.js` 打包成 `build.min.js`：
+我们试试在命令行下将 `index.js` 打包成 `build.min.js`（如果使用 webpack 5，入口文件 `.index.js` 前需要用 `--entry` 标识）：
 
 ```
 $ npx webpack ./index.js -o build.min.js
